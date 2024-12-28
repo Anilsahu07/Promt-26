@@ -1,0 +1,128 @@
+@media (max-width:550px) {
+
+    .container{
+        padding: 15px 16px;
+    }
+
+
+    .content{
+        padding: 15px 12px;
+        font-family: montserrat;
+    }
+
+    .mid-nav{
+        display: none;
+    }
+
+    .nav-right .button1{
+        display: none;
+    }
+
+    .nav-right .button2 button{
+        padding: 5px 10px;
+    }
+
+    .nav-right .button2 button:hover{
+        background-color: blueviolet;
+    }
+
+    .input  p{
+        display: none;
+    }
+
+    .left-nav h1{
+        font-size: 4.5vw;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    main .para h1{
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    main .para p{
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    .buttons{
+        gap: 20px;
+        padding:10px 15px ;
+    }
+
+    .buttons .button3 button{
+        font-size: 17px;
+    }
+
+    .buttons .other{
+        font-size: 17px;
+    }
+
+    .page1{
+        padding: 5px 0px;
+    }
+
+    .page1 .top{
+        justify-content: center;
+    }
+
+    .page1 .top h1{
+        font-size: 4vw;
+    }
+
+    .page1 .top button{
+        padding: 10px 15px;
+        font-size: 19px;
+    }
+
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .card2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .card3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .black .info h1{
+        font-size: 5vw;
+    }
+
+    .black .info p{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .facility{
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .facility div{
+        text-align: center;
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    .rate{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    background: url(china-7094961_1280.jpg);
+    width: 100%;
+    /* height: 100%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 30px 0 30px;
+    font-family: poppins;
+}
+
+.content{
+    width: 100%;
+    /* height: 100%; */
+    border: 5px solid white;
+    outline: 1px solid black;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.351);
+    padding: 10px 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid wheat;
+    padding: 10px 0;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.button1 button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(0, 0, 0, 0.646);
+    color: white;
+}
+
+.button2 button{
+    background-color: white;
+    color: black;
+}
+
+.button button{
+    padding: 9px 20px;
+    font-family: poppins;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
+
+.nav-right .button1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+.nav-right .button2 button:hover{
+    background-color:black;
+    color: rgb(228, 224, 224);
+}
+
+
+.button1 button i{
+    font-size: 20px;
+}
+
+.left-nav h1{
+    font-size: 2vw;
+    color: white;
+}
+
+.mid-nav{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+.mid-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.input p{
+    font-size: 12px;
+}
+
+.input input{
+    font-family: poppins;
+    font-size: 12px;
+    padding: 0 10px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+
+#home::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 2.5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    gap: 20px;
+}
+
+main .para h1{
+    font-size: 3vw;
+    color: white;
+    line-height: 3.8vw;
+}
+
+main .para{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.para p{
+    color: white;
+    font-size: 13px;
+    font-family: montserrat;
+    font-weight: 600;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.876);
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+.buttons:hover{
+    background-color: rgb(34, 34, 35);
+}
+
+.buttons .button3 button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: montserrat;
+    font-size: 10px;
+    color: white;
+    background-color: rgba(103, 100, 100, 0.765);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.button3 button:hover{
+    background-color: black;
+}
+
+.buttons .other{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+}
+
+.page1{
+    margin-top: 50px;
+    padding: 5px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.page1 .top{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.top h1{
+    font-size: 1.2vw;
+    color: white;
+    text-decoration: underline;
+  
+}
+
+.top button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(172, 30, 243, 0.533);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.top button i{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.top button:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.cards{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card1{
+    background: url(temple-6823939_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 30px;
+    
+}
+
+.card1:hover{
+    scale: 1.05;
+}
+
+
+.card2:hover{
+    scale: 1.05;
+}
+
+
+.card3:hover{
+    scale: 1.05;
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    background: linear-gradient(rgba(88, 87, 87, 0.397), rgba(0, 0, 0, 0.899));
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid rgb(242, 242, 242);
+}
+
+.card1 .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons .rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color:rgba(10, 10, 10, 0.797) ;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.icons .heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    padding: 7px 7px;
+    border-radius: 30px;
+}
+
+.icons .heart i{
+    font-size: 12px;
+}
+
+.info > h1{
+    font-size: 1.3vw;
+    color: white;
+}
+
+.info >p{
+    font-size: 11px;
+    margin-top: 8px;
+    color: white;
+}
+
+.facility{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 6px;
+}
+
+
+.facility div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    background-color: rgba(89, 87, 87, 0.719);
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+.facility div i{
+    font-size: 11px;
+}
+
+.facility div p{
+    font-size: 10px;
+}
+
+.rate h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.rate h1 span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.facility div:hover{
+    background-color: black;
+    border: 1px solid white;
+}
+
+.black .rating:hover{
+    background-color: rgb(207, 46, 236);
+}
+
+.black .heart:hover{
+    background-color: rgb(207, 46, 236);
+}
+
+
+
+
+
+
+.card2{
+    background: url(river-219086_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 30px;
+    
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    background: linear-gradient(rgba(88, 87, 87, 0.397), rgba(0, 0, 0, 0.899));
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid rgb(242, 242, 242);
+}
+
+.card2 .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons .rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color:rgba(10, 10, 10, 0.797) ;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.icons .heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    padding: 7px 7px;
+    border-radius: 30px;
+}
+
+.icons .heart i{
+    font-size: 12px;
+}
+
+.info > h1{
+    font-size: 1.3vw;
+    color: white;
+}
+
+.info >p{
+    font-size: 11px;
+    margin-top: 8px;
+    color: white;
+}
+
+.facility{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 6px;
+}
+
+
+.facility div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    background-color: rgba(89, 87, 87, 0.719);
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+.facility div i{
+    font-size: 11px;
+}
+
+.facility div p{
+    font-size: 10px;
+}
+
+.rate h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.rate h1 span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+
+.card3{
+    background: url(traditional-village-7818476_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 30px;
+    
+}
+
+.black{
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    background: linear-gradient(rgba(88, 87, 87, 0.397), rgba(0, 0, 0, 0.899));
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid rgb(242, 242, 242);
+}
+
+.card3 .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons .rating{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color:rgba(10, 10, 10, 0.797) ;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.icons .heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    padding: 7px 7px;
+    border-radius: 30px;
+}
+
+.icons .heart i{
+    font-size: 12px;
+}
+
+.info > h1{
+    font-size: 1.3vw;
+    color: white;
+}
+
+.info >p{
+    font-size: 11px;
+    margin-top: 8px;
+    color: white;
+}
+
+.facility{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 6px;
+}
+
+
+.facility div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    background-color: rgba(89, 87, 87, 0.719);
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+
+.facility div i{
+    font-size: 11px;
+}
+
+.facility div p{
+    font-size: 10px;
+}
+
+.rate h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.rate h1 span{
+    font-size: 15px;
+    font-weight: 500;
+}
